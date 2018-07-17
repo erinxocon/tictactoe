@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+eventlet = "*"
+redis = "*"
+hiredis = "*"
+flask = "*"
+python-socketio = "*"
+
+[dev-packages]
+mypy = "*"
+rope = "*"
+ipython = "*"
+black = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

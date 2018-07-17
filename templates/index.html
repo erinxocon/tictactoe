@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <h1>Create Game</h1>
+    <form action="" method='post' enctype='multipart/form-data'>
+        <h2>Grid Size</h2>
+        <select name="grid_size">
+            <option value="3" selected>3x3</option>
+            <option value="9">9x9</option>
+        </select>
+        <input type="submit" value="Create Game">
+    </form>
+    <br/>
+    <hr/>
+    <h1>Join Game</h1>
+    <form action="join_game" method='post' enctype='multipart/form-data'>
+        <h2>Game Code</h2>
+        <input type="text" name="game_code" />
+        <input type="submit" value="Join">
+    </form>
+</body>
+
+</html>
